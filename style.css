@@ -1,0 +1,57 @@
+/* class selector */
+.btn{ 
+    background-color:rgb(230, 200, 164);
+    color:black;
+    margin:25px 75px;
+    height:35px;
+    width:155px;
+    border-radius: 10px;
+    
+
+}
+.btn:active{
+    background-color:rgb(240, 117, 98)
+
+}
+/*element selector */
+a{
+    text-decoration: none;
+}
+.main{
+    background-image: url(images/images.jpg);
+    background-repeat: no-repeat;
+    background-size:cover;
+    margin:200px 0px 300px 0px;
+    
+}
+/* combination selector */
+h1,p{
+    color:rgb(251, 137, 79);
+}
+/* element selector */
+h1{
+    text-size-adjust: 500;
+    color:rgb(188, 115, 199);
+    font-size:80px
+}
+/* ID selector */
+#para{
+    font-size:20px;
+    
+}
+
+.container{
+    display:flex;
+    justify-content: center;
+    column-gap:100px;
+
+}
+img{
+   width:500px;
+   height:300px;
+   border-radius: 10px;
+}
+.text{
+    font-size:20px;
+    margin-top:10%
+}
