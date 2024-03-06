@@ -55,3 +55,15 @@ img{
     font-size:20px;
     margin-top:10%
 }
+
+/* Attribute Selectors */
+div[class|="text"] {
+    color: rgb(245, 247, 243);
+  }
+
+/* Pseudo element selectors */
+p::first-letter{
+    font-size:x-large;
+    color:red;
+    font-weight: bolder;
+}
